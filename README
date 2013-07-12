@@ -1,0 +1,5 @@
+1. Clone this repo
+2. Create virtualenv
+3. Install dependencies
+4. Run app
+        python main.py
