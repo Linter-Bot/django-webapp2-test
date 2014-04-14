@@ -7,7 +7,7 @@ from polls.models import Poll
 
 class HelloWebapp2(webapp2.RequestHandler):
     def get(self):
-	a = Poll.objects.all()[0].question
+	a=Poll.objects.all()[0].question
         self.response.write(a)
 
 app = webapp2.WSGIApplication([
